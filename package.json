@@ -4,8 +4,16 @@
   "version": "1.0.0",
   "scripts": {
     "build": "esbuild components/hero.tsx --bundle --minify --jsx=automatic --format=iife --outfile=dist/origin-component.js && tailwindcss -i components/tailwind.css -o dist/origin-utilities.css --minify",
-    "check": "node --check dist/app.js && node --check dist/origin-component.js"
+    "check": "node --check dist/app.js && node --check dist/layers.js && node --check dist/layer-model.js && node --check dist/origin-component.js",
+    "test": "node --test tests"
   },
-  "dependencies": {"react": "^19.0.0", "react-dom": "^19.0.0"},
-  "devDependencies": {"esbuild": "^0.25.0", "tailwindcss": "^4.0.0", "@tailwindcss/cli": "^4.0.0"}
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/cli": "^4.0.0"
+  }
 }

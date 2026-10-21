@@ -11,3 +11,11 @@ Projects and uploaded images are stored in browser localStorage. There is no acc
 The dark catalogue styling is locally authored based on OriginKit. The hero renders OriginKit's actual **Cluster About Glossy / CandyShoal** React component downloaded with the official CLI. Source: https://www.originkit.dev/components/cluster-about-glossy
 
 Run `npm install` then `npm run build` after changing components. The generated bundle and Tailwind utilities are in `dist/`, so the preview needs only a static server. The component requires WebGL2; the editor works independently of it.
+
+## Layered post templates
+
+The Halloween collection includes portrait stickers, scrapbook collages, ornate invitations, framed photo strips, and three-photo stacks. Each element is editable: select it on the canvas or in the layer list, drag to move it, change its dimensions and rotation, or reorder and duplicate it. Photo layers support white or polaroid frames and black-and-white treatment. Upload multiple photos to fill empty frames. Transparent PNG uploads retain their alpha channel; automatic background removal is not included.
+
+Use Preview for a swipeable carousel. Export the selected slide as PNG or all slides in one ZIP. Photos stay in browser storage and are not uploaded to a backend. Browser storage has a size limit, so export important work.
+
+Run `npm run check` and `npm test` to verify syntax and layer selection, rotation, drag boundaries, ordering, and independent template state.
