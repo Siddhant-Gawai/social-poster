@@ -1,0 +1,8 @@
+.originkit/
+node_modules/
+outputs/
+.openai/
+.env
+.env.*
+!.env.example
+preview.png
