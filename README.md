@@ -19,3 +19,7 @@ The Halloween collection includes portrait stickers, scrapbook collages, ornate 
 Use Preview for a swipeable carousel. Export the selected slide as PNG or all slides in one ZIP. Photos stay in browser storage and are not uploaded to a backend. Browser storage has a size limit, so export important work.
 
 Run `npm run check` and `npm test` to verify syntax and layer selection, rotation, drag boundaries, ordering, and independent template state.
+
+## Latest patch — October 23, 2026
+
+Text layer names now update in the Layers panel as you type, making it easier to identify the text you are editing. The text field keeps focus and the canvas continues to update live.
