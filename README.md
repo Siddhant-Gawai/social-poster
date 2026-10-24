@@ -20,6 +20,12 @@ Use Preview for a swipeable carousel. Export the selected slide as PNG or all sl
 
 Run `npm run check` and `npm test` to verify syntax and layer selection, rotation, drag boundaries, ordering, and independent template state.
 
-## Latest patch — October 23, 2026
+## Patch history
+
+### October 24, 2026
+
+Fixed keyboard interaction on template cards: pressing Enter or Space on a Favorite button toggles the favorite without also opening the editor. Focusing the card itself and pressing Enter or Space still opens the design.
+
+### October 23, 2026
 
 Text layer names now update in the Layers panel as you type, making it easier to identify the text you are editing. The text field keeps focus and the canvas continues to update live.
