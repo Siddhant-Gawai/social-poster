@@ -22,6 +22,10 @@ Run `npm run check` and `npm test` to verify syntax and layer selection, rotatio
 
 ## Patch history
 
+### October 27, 2026
+
+Ctrl/Cmd+K now keeps focus in an open editor or carousel preview instead of trying to focus the gallery search behind the dialog. The shortcut still focuses search from the gallery.
+
 ### October 24, 2026
 
 Fixed keyboard interaction on template cards: pressing Enter or Space on a Favorite button toggles the favorite without also opening the editor. Focusing the card itself and pressing Enter or Space still opens the design.
