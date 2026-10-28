@@ -22,6 +22,10 @@ Run `npm run check` and `npm test` to verify syntax and layer selection, rotatio
 
 ## Patch history
 
+### October 28, 2026
+
+Fixed carousel previews when switching slides quickly: a slow-loading photo from an earlier slide can no longer overwrite the latest selected slide. Added a regression test for out-of-order preview rendering.
+
 ### October 27, 2026
 
 Ctrl/Cmd+K now keeps focus in an open editor or carousel preview instead of trying to focus the gallery search behind the dialog. The shortcut still focuses search from the gallery.
