@@ -22,6 +22,10 @@ Run `npm run check` and `npm test` to verify syntax and layer selection, rotatio
 
 ## Patch history
 
+### October 29, 2026
+
+Search now ignores leading and trailing spaces, so pasted queries still find matching templates and projects. Whitespace-only searches show all results allowed by the current category. Both the standard gallery and layered previews use the same normalization.
+
 ### October 28, 2026
 
 Fixed carousel previews when switching slides quickly: a slow-loading photo from an earlier slide can no longer overwrite the latest selected slide. Added a regression test for out-of-order preview rendering.
