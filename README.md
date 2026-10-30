@@ -22,6 +22,10 @@ Run `npm run check` and `npm test` to verify syntax and layer selection, rotatio
 
 ## Patch history
 
+### October 30, 2026
+
+Basic-editor photo uploads now stay attached to the slide where the upload started, even if you switch slides while the image is loading. Added a regression test for this timing issue.
+
 ### October 29, 2026
 
 Search now ignores leading and trailing spaces, so pasted queries still find matching templates and projects. Whitespace-only searches show all results allowed by the current category. Both the standard gallery and layered previews use the same normalization.
