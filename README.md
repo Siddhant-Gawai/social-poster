@@ -22,6 +22,10 @@ Run `npm run check` and `npm test` to verify syntax and layer selection, rotatio
 
 ## Patch history
 
+### October 31, 2026
+
+Basic-editor uploads now preserve PNG transparency instead of converting every photo to JPEG. Both editors now retain transparent PNG cutouts. Upload regression checks cover PNG and JPEG formats as well as switching slides during loading.
+
 ### October 30, 2026
 
 Basic-editor photo uploads now stay attached to the slide where the upload started, even if you switch slides while the image is loading. Added a regression test for this timing issue.
