@@ -22,6 +22,10 @@ Run `npm run check` and `npm test` to verify syntax and layer selection, rotatio
 
 ## Patch history
 
+### November 2, 2026
+
+The app now validates that saved projects and favorites are lists before loading them. Invalid JSON or a wrong data type falls back to an empty list instead of breaking the gallery; valid lists continue to load normally.
+
 ### October 31, 2026
 
 Basic-editor uploads now preserve PNG transparency instead of converting every photo to JPEG. Both editors now retain transparent PNG cutouts. Upload regression checks cover PNG and JPEG formats as well as switching slides during loading.
